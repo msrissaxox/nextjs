@@ -8,6 +8,8 @@ export default function Card (properties){
     return(
 <div>
 
+<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 p-6">
+
 <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-md overflow-hidden">
       {/* Property Image */}
       <img
@@ -28,6 +30,7 @@ export default function Card (properties){
           </p>
       </div>
     </div>
+</div>
 </div>
     )
 };
